@@ -1,13 +1,9 @@
-## Configuring a MongoDB instance.
+## Configuring a MongoDB instance (from docker).
 
-1. Add an admin user:
+1. Modify the default admin user:
 
 ~~~
-db.createUser(
-  {
-    user: "useradmin",
-    pwd: "thepianohasbeendrinking",
-    roles: [ { role: "userAdminAnyDatabase", db: "admin" } ]
-  }
-)
+$ mongo -u admin -p admin --authenticationDatabase
+use admin
+db.changeUserPassword("admin","newpassword");
 ~~~

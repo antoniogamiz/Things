@@ -23,3 +23,20 @@ $ mongo
 use admin
 db.auth("admin","newpassword")
 ~~~
+
+5. Create a new database and a collection:
+
+~~~
+use somedb
+db.createCollection("name")
+db.insert({random: "random"}) // Necessary, otherwise <somedb> will not be saved in the system
+db.createUser({
+  user: "<name>",
+  pwd: "<cleartext password>",
+  roles: [
+    { role: "readWrite", db: "oauth" }
+  ]}
+)
+
+db.dropUser("<username>") 
+~~~

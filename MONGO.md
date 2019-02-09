@@ -17,7 +17,7 @@ security:
 
 3. Restart mongod.
 
-4. Init a shell with mongo and authenticate as admin:ç
+4. Init a shell with mongo and authenticate as admin:
 ~~~
 $ mongo
 use admin

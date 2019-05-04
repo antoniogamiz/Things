@@ -1,4 +1,12 @@
-## Things
+## GitHub
 
-+ Check out weather forecast form terminal: `curl wttr.in/your_location`
-+ KeyGenerator for Auto push: ssh-keygen -t rsa -C "your_email@example.com"
+To delete a commit:
+
+~~~
+git reset --hard HEAD~1
+git push origin HEAD --force
+~~~
+
+To avoid the merge commit:
+
+git pull --rebase

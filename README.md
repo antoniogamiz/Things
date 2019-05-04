@@ -20,3 +20,9 @@ git pull --rebase
 ~~~
 
 ---
+
+## Shortcuts
+
+To duplicate a line in VS Code: shift+alt+down
+
+---

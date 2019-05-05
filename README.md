@@ -40,3 +40,9 @@ To duplicate a line in VS Code: shift+alt+down
 Shortcuts for terminator [here](https://askubuntu.com/questions/717965/what-is-the-shortcut-to-move-between-two-terminator-tabs).
 
 ---
+
+## Random
+
+To generate a markdown with the github-flavored style, you can use `grip README.md` (grip is a python module).
+
+---

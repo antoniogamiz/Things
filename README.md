@@ -21,6 +21,16 @@ git pull --rebase
 
 ---
 
+## Linux
+
+If you type `!<command>` in the terminal, it will execute `<command>` with previous arguments.
+
+---
+
+Use `sudo lsof -i :port` to see what process are using a specified port.
+
+---
+
 ## Shortcuts
 
 To duplicate a line in VS Code: shift+alt+down

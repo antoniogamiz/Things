@@ -1,5 +1,9 @@
 ## GitHub
 
+To fix a commit message: `git commit --amend`
+
+---
+
 To reference a commit from a comment, in a issue for instance, you can copy the url and it will be automatically converted to a "pretty link". [+info](https://help.github.com/en/articles/autolinked-references-and-urls#commit-shas).
 
 ---

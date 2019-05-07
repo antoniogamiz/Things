@@ -31,6 +31,10 @@ Use `sudo lsof -i :port` to see what process are using a specified port.
 
 ---
 
+`find path -name regex` to search files.
+
+---
+
 ## Shortcuts
 
 To duplicate a line in VS Code: shift+alt+down

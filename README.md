@@ -1,5 +1,9 @@
 ## GitHub
 
+To change commits: https://stackoverflow.com/questions/12481639/remove-files-from-git-commit
+
+---
+
 To fix a commit message: `git commit --amend`
 
 ---

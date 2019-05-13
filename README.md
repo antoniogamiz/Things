@@ -4,6 +4,10 @@ To change commits: https://stackoverflow.com/questions/12481639/remove-files-fro
 
 ---
 
+Undo operations: https://docs.gitlab.com/ee/topics/git/numerous_undo_possibilities_in_git/
+
+---
+
 To fix a commit message: `git commit --amend`
 
 ---

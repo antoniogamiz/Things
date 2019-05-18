@@ -1,5 +1,17 @@
 ## GitHub
 
+Push to a new branch:
+
+~~~
+Create a new branch:
+git checkout -b feature_branch_name
+Edit, add and commit your files.
+Push your branch to the remote repository:
+git push -u origin feature_branch_name
+~~~
+
+---
+
 To change commits: https://stackoverflow.com/questions/12481639/remove-files-from-git-commit
 
 ---

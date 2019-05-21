@@ -1,5 +1,9 @@
 ## GitHub
 
+git grep regex directory
+
+---
+
 Push to a new branch:
 
 ~~~

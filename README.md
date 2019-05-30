@@ -1,5 +1,8 @@
 ## GitHub
 
+To change the remote url: https://help.github.com/en/articles/changing-a-remotes-url
+
+---
 
 To set upstream: https://stackoverflow.com/questions/45115391/change-destination-of-git-push
 

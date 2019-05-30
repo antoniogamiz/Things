@@ -1,5 +1,10 @@
 ## GitHub
 
+
+To set upstream: https://stackoverflow.com/questions/45115391/change-destination-of-git-push
+
+---
+
 Quite pretty log output
 
 git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'

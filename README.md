@@ -1,5 +1,13 @@
 ## GitHub
 
+![](1.jpg)
+
+~~~
+git show [file|commit] # see changes
+git log [file|commit]  # also see changes
+~~~
+---
+
 To change the remote url: https://help.github.com/en/articles/changing-a-remotes-url
 
 ---

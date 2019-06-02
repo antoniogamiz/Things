@@ -41,6 +41,8 @@ git pull --rebase # avoid the merge commit
   [alias]
       st=status
   ~~~
+  
   You can also use the command: `git congig --global alias.st 'status'`.
+  
   ---
   ![](1.jpg)

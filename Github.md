@@ -8,6 +8,9 @@ git log [file|commit]  # also see changes
 git log --stat
 git commit --amend
 git checkout [commit/master] [file] # recreate the file to that commit
+git checkout [file] # discard the changes
+git reset HEAD [file] # unstage files
+git rm --cached # same as above
 git grep [regex] [directory]
 git pull --rebase # avoid the merge commit
 git fetch # download remote changes to the local repo (not the workdspace)

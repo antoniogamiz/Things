@@ -2,6 +2,7 @@
 
 ~~~
 git show [file|commit] # see changes
+git diff [commit] [commit]
 git log [file|commit]  # also see changes
 git commit --amend
 git grep [regex] [directory]
@@ -32,4 +33,14 @@ git pull --rebase # avoid the merge commit
   git reset --hard HEAD~1
   git push origin HEAD --force
   ~~~  
+  
+  ### Alias
+  
+  Go to `~/.gitconfig` and them like:
+  
+  ~~~
+  [alias]
+      st=status
+  ~~~
+  
   ![](1.jpg)

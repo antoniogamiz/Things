@@ -2,11 +2,16 @@
 
 ~~~
 git show [file|commit] # see changes
+git diff # current diff
 git diff [commit] [commit]
 git log [file|commit]  # also see changes
+git log --stat
 git commit --amend
+git checkout [commit/master] [file] # recreate the file to that commit
 git grep [regex] [directory]
 git pull --rebase # avoid the merge commit
+git fetch # download remote changes to the local repo (not the workdspace)
+git merge # merge that chagnes with the workspace
 ~~~
 
 - To change the remote url: https://help.github.com/en/articles/changing-a-remotes-url

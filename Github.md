@@ -33,14 +33,14 @@ git pull --rebase # avoid the merge commit
   git reset --hard HEAD~1
   git push origin HEAD --force
   ~~~  
-  
+  ---
   ### Alias
   
   Go to `~/.gitconfig` and them like:
-  
   ~~~
   [alias]
       st=status
   ~~~
-  
+  You can also use the command: `git congig --global alias.st 'status'`.
+  ---
   ![](1.jpg)

@@ -2,10 +2,14 @@
 
 ![](1.jpg)
 
+Deletes a tag => https://gist.github.com/mobilemind/7883996
+
+---
 ~~~
 git show [file|commit] # see changes
 git log [file|commit]  # also see changes
 ~~~
+
 ---
 
 To change the remote url: https://help.github.com/en/articles/changing-a-remotes-url

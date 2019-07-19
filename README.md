@@ -1,5 +1,11 @@
 ## GitHub
 
+Sync a fork
+
+https://help.github.com/en/articles/configuring-a-remote-for-a-fork
+https://help.github.com/en/articles/syncing-a-fork
+---
+
 ![](1.jpg)
 
 Deletes a tag => https://gist.github.com/mobilemind/7883996

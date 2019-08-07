@@ -11,6 +11,16 @@ https://help.github.com/en/articles/syncing-a-fork
 Deletes a tag => https://gist.github.com/mobilemind/7883996
 
 ---
+
+sync a branch
+
+~~~
+git checkout b1
+git merge master
+# repeat for b2 and b3
+~~~
+
+---
 ~~~
 git show [file|commit] # see changes
 git log [file|commit]  # also see changes

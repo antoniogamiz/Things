@@ -42,6 +42,12 @@ git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(
 
 ---
 
+Squash a branch into one commit only
+
+https://stackoverflow.com/questions/5308816/how-to-use-git-merge-squash
+
+---
+
 git grep regex directory
 
 ---

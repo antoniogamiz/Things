@@ -36,6 +36,15 @@ To set upstream: https://stackoverflow.com/questions/45115391/change-destination
 
 ---
 
+Checkout a single file from another branch
+
+~~~
+git checkout some-other-branch -- yarn.lock
+git checkout 9146367 -- yarn.lock
+~~~
+
+---
+
 Quite pretty log output
 
 git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'

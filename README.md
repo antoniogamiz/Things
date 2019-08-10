@@ -42,6 +42,14 @@ git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(
 
 ---
 
+https://git-rebase.io/
+
+MUY UTIL!!
+
+use git rebase -i
+
+---
+
 Squash a branch into one commit only
 
 https://stackoverflow.com/questions/5308816/how-to-use-git-merge-squash

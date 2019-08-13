@@ -12,6 +12,12 @@ Deletes a tag => https://gist.github.com/mobilemind/7883996
 
 ---
 
+git cherry-pick ID
+
+apply a selected commit (works with deleted commit adn reflog
+
+---
+
 sync a branch
 
 ~~~

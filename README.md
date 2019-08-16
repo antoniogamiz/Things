@@ -101,7 +101,72 @@ $ git push origin HEAD --force
 $ git pull --rebase
 ~~~
 
+- Extensions (for vscode):
 
+~~~
+Git Lens
+Git Graph
+~~~
+
+- Git Convention:
+  - https://nvie.com/posts/a-successful-git-branching-model/
+  - Only push to master when a new release is going to be made.
+  - Keep a develop branch.
+  - Creates features branchs off `develop`, not `master` (autobuilds) with:
+  ~~~
+  $ git checkout -b feature-* develop
+  ~~~
+  - Incorporating a finished feature on develop
+  ~~~
+  $ git checkout develop 
+  $ git merge --no-ff feature-*
+  $ git branch -d feature-* # avoid losing information about the historical existence of a feature branch
+  $ git push origin develop
+  ~~~
+  - Releases branches: `release-*`. Must be merged into `develop` and `master`. Create a release branch:
+  ~~~
+  $ git checkout -b release-1.2 develop
+  * necessary changes to bump version * (always do this at the beginning)
+  $ git commit -a -m "Bumped version to 1.2"
+  ~~~
+  - Finish a release branch:
+  ~~~
+  $ git checkout master
+  $ git merge --no-ff release-1.2
+  (summary of changes)
+  $ git tag -a 1.2 (maybe use -s or -u to sign the tag)
+  ~~~
+  - We also need to update `develop` with the release changes:
+  ~~~
+  $ git checkout develop
+  $ git merge --no-ff release-1.2
+  (summary of changes)
+  ~~~
+  - Now we can delete the release branch:
+  ~~~
+  $ git branch -d release-1.2
+  ~~~
+  - `hotfix-*` branches: may branch off from `master`. Must be merged into `develop` and `master`.
+  ~~~
+  $ git checkout -b hotfix-1.2.1 master
+  Switched to a new branch "hotfix-1.2.1"
+  $ ./bump-version.sh 1.2.1
+  Files modified successfully, version bumped to 1.2.1.
+  $ git commit -a -m "Bumped version number to 1.2.1"
+  [hotfix-1.2.1 41e61bb] Bumped version number to 1.2.1
+  1 files changed, 1 insertions(+), 1 deletions(-)
+  (* now we fix the bug *)
+  $ git checkout master
+  $ git merge --no-ff hostfix-1.2.1
+  $ git tag -a 1.2.1
+  (* now we must update `develop` *)
+  $ git checkout develop
+  $ git merge --no-ff hotfix-1.2.1
+  IF THERE IS AN EXISTING RELEASE BRANCH, WE WILL MERGE THE HOTFIX BRANCH
+  TO THE RELEASE BRANCH UNLESS DEVELOP CANNOT CONTINUE WITHOUT THAT FIX.
+  $ git branch -d hotfix-1.2.1
+  ~~~
+  
 ![](images/1.jpg)
 
 

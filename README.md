@@ -108,7 +108,7 @@ Git Lens
 Git Graph
 ~~~
 
-- Git Convention:
+- Branch convention:
   - https://nvie.com/posts/a-successful-git-branching-model/
   - Only push to master when a new release is going to be made.
   - Keep a develop branch.
@@ -166,6 +166,9 @@ Git Graph
   TO THE RELEASE BRANCH UNLESS DEVELOP CANNOT CONTINUE WITHOUT THAT FIX.
   $ git branch -d hotfix-1.2.1
   ~~~
+  
+- Commit naming convention: https://chris.beams.io/posts/git-commit/
+
   
 ![](images/1.jpg)
 

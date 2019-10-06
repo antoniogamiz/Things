@@ -37,6 +37,12 @@ sudo apt-get install git curl
 
 # ===========================================================
 
+DEBUG "Zsh"
+sudo apt-get install zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
+# ===========================================================
+
 DEBUG "Visual Studio Code"
 sudo apt install code
 

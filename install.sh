@@ -28,6 +28,13 @@ else
     mkdir $TMP_DIR
     cd $TMP_DIR
 fi
+
+# ===========================================================
+
+DEBUG "Standard packages"
+sudo apt-get install git curl
+# TODO: configure git and autowrap with vim (set to 72)
+
 # ===========================================================
 
 DEBUG "Visual Studio Code"

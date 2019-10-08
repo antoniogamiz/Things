@@ -47,8 +47,8 @@ echo "References:"       >> ~/.gitmessage
 echo "# Fix:"            >> ~/.gitmessage
 echo "# Co-authored-by:" >> ~/.gitmessage
 # set commit template
-echo "[commit]"                        >> ~/.gitconfig
-echo "        template = ~/.gitmesage" >> ~/.gitconfig
+echo "[commit]"                         >> ~/.gitconfig
+echo "        template = ~/.gitmessage" >> ~/.gitconfig
 
 # TODO: configure git and autowrap with vim (set to 72)
 

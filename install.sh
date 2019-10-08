@@ -33,6 +33,23 @@ fi
 
 DEBUG "Standard packages"
 sudo apt-get install git curl
+git config --global core.editor "vim"
+git config --global user.name "Antonio Gamiz"
+git config --global user.email antoniogamiz10@gmail.com
+# vim wrapping for commits to 72 characterrs
+echo "autocmd FileType gitcommit set textwidth=72 \n autocmd FileType gitcommit set colorcolumn=73" >> .vimrc
+# commit template
+echo "# header"          >> ~/.gitmessage
+echo ""                  >> ~/.gitmessage
+echo "# why"             >> ~/.gitmessage
+echo ""                  >> ~/.gitmessage
+echo "References:"       >> ~/.gitmessage
+echo "# Fix:"            >> ~/.gitmessage
+echo "# Co-authored-by:" >> ~/.gitmessage
+# set commit template
+echo "[commit]"                        >> ~/.gitconfig
+echo "        template = ~/.gitmesage" >> ~/.gitconfig
+
 # TODO: configure git and autowrap with vim (set to 72)
 
 # ===========================================================

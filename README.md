@@ -1,5 +1,7 @@
 ## GitHub
 
+- Commit template: https://gist.github.com/antoniogamiz/290c12fc31fc4355b9f373af1a9a7d69
+
 - Publish new tags:
 
 ~~~

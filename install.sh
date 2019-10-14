@@ -32,7 +32,7 @@ fi
 # ===========================================================
 
 DEBUG "Standard packages"
-sudo apt-get install git curl
+sudo apt-get install git curl -y
 git config --global core.editor "vim"
 git config --global user.name "Antonio Gamiz"
 git config --global user.email antoniogamiz10@gmail.com
@@ -50,18 +50,16 @@ echo "# Co-authored-by:" >> ~/.gitmessage
 echo "[commit]"                         >> ~/.gitconfig
 echo "        template = ~/.gitmessage" >> ~/.gitconfig
 
-# TODO: configure git and autowrap with vim (set to 72)
-
 # ===========================================================
 
 DEBUG "Zsh"
-sudo apt-get install zsh
+sudo apt-get install zsh -y
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 # ===========================================================
 
 DEBUG "Visual Studio Code"
-sudo apt install code
+sudo apt install code -y
 
 # ===========================================================
 
@@ -71,8 +69,13 @@ sudo apt install python -y
 # ===========================================================
 
 DEBUG "Latex related" 
-sudo apt install texlive-base
-sudo apt install textlive-latex-recommended
-sudo apt install texlive
-sudo apt install texlive-latex-extra
-sudo apt install texlive-full
+sudo apt install texlive-base -y
+sudo apt install textlive-latex-recommended -y
+sudo apt install texlive -y
+sudo apt install texlive-latex-extra -y
+sudo apt install texlive-full -y
+
+# =============================================================
+
+DEBUG "Random"
+sudo apt install tree -y

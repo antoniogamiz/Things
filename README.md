@@ -93,6 +93,8 @@ $ git checkout master
 $ git merge upstream/master
 ~~~
 
+Or: https://gist.github.com/CristinaSolana/1885435
+
 - Set remote set url to use SSH
 
 ~~~

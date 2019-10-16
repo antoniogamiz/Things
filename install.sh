@@ -32,6 +32,7 @@ fi
 # ===========================================================
 
 DEBUG "Standard packages"
+sudo apt install vim -y
 sudo apt-get install git curl -y
 git config --global core.editor "vim"
 git config --global user.name "Antonio Gamiz"

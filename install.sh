@@ -79,5 +79,7 @@ sudo apt install texlive-full -y
 # =============================================================
 
 DEBUG "Random"
+sudo apt install terminator
+sudo update-alternatives --config x-terminal-emulator
 sudo apt install tree -y
 sudo apt install docker.io -y

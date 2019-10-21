@@ -66,6 +66,8 @@ sudo apt install code -y
 
 DEBUG "Python related"
 sudo apt install python -y
+sudo apt install python-pip -y
+sudo apt install python3-pip -y
 
 # ===========================================================
 
@@ -83,3 +85,7 @@ sudo apt install terminator
 sudo update-alternatives --config x-terminal-emulator
 sudo apt install tree -y
 sudo apt install docker.io -y
+
+# ===============================================================
+DEBUG "NodeJS"
+sudo apt install nodejs -y

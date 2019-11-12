@@ -1,5 +1,11 @@
-#!/bin/bash 
+#!/bin/bash
 
+# sudo cp -a Ultimate-Maia-Black /usr/share/themes
+# icon theme: oranchelo green
+# gnome theme: ultimate maia black
+
+# snap windows to a corner
+# https://askubuntu.com/questions/1048693/how-can-i-snap-a-window-in-a-corner-with-18-04
 # ================= confiuration vars =======================
 
 TMP_DIR=/tmp/antonio
@@ -33,6 +39,7 @@ fi
 
 DEBUG "Standard packages"
 sudo apt install vim -y
+sudo apt install gnome-tweak-tool -y
 sudo apt-get install git curl -y
 git config --global core.editor "vim"
 git config --global user.name "Antonio Gamiz"
@@ -71,7 +78,7 @@ sudo apt install python3-pip -y
 
 # ===========================================================
 
-DEBUG "Latex related" 
+DEBUG "Latex related"
 sudo apt install texlive-base -y
 sudo apt install textlive-latex-recommended -y
 sudo apt install texlive -y

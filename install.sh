@@ -2,6 +2,7 @@
 
 # sudo cp -a Ultimate-Maia-Black /usr/share/themes
 # icon theme: oranchelo green
+# https://github.com/OrancheloTeam/oranchelo-icon-theme
 # gnome theme: ultimate maia black
 
 # snap windows to a corner

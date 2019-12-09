@@ -1,11 +1,16 @@
 #!/bin/bash
 
 # sudo cp -a Ultimate-Maia-Black /usr/share/themes
-# icon theme: oranchelo green
+# icon theme: oranchelo greenhttps://askubuntu.com/questions/37824/what-is-the-best-way-to-configure-a-thinkpads-trackpoint
+# https://github.com/OrancheloTeam/oranchelo-icon-theme
 # gnome theme: ultimate maia black
 
 # snap windows to a corner
-# https://askubuntu.com/questions/1048693/how-can-i-snap-a-window-in-a-corner-with-18-04
+# https://askubuntu.com/questions/1048693/how-can-i-snap-a-window-in-a-corner-with-18-04https://askubuntu.com/questions/37824/what-is-the-best-way-to-configure-a-thinkpads-trackpoint
+
+# setup sensibility in trackpointer thinkpad
+# https://askubuntu.com/questions/37824/what-is-the-best-way-to-configure-a-thinkpads-trackpoint
+
 # ================= confiuration vars =======================
 
 TMP_DIR=/tmp/antonio

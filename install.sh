@@ -98,6 +98,7 @@ sudo update-alternatives --config x-terminal-emulator
 sudo apt install tree -y
 sudo apt install docker.io -y
 # see to add a shortcut https://github.com/lupoDharkael/flameshot/issues/200#issuecomment-388810822
+# https://askubuntu.com/a/1039949/797072
 sudo apt install flameshot -y
 
 # ===============================================================

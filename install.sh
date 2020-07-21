@@ -97,6 +97,7 @@ sudo apt install terminator
 sudo update-alternatives --config x-terminal-emulator
 sudo apt install tree -y
 sudo apt install docker.io -y
+sudo apt install flameshot -y
 
 # ===============================================================
 DEBUG "NodeJS"
